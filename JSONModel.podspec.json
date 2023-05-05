@@ -1,0 +1,32 @@
+{
+  "name": "JSONModel",
+  "version": "1.8.0",
+  "summary": "Magical Data Modelling Framework for JSON. Create rapidly powerful, atomic and smart data model classes.",
+  "homepage": "http://www.jsonmodel.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Marin Todorov": "touch-code-magazine@underplot.com"
+  },
+  "source": {
+    "git": "https://github.com/jsonmodel/jsonmodel.git",
+    "tag": "1.8.0"
+  },
+  "platforms": {
+    "ios": "11.0",
+    "watchos": "7.0"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "vendored_frameworks": "JSONModel.xcframework",
+  "ios": {
+    "public_header_files": "JSONModel.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "JSONModel.xcframework/ios-arm64/*/Headers/*.h"
+  },
+  "watchos": {
+    "public_header_files": "JSONModel.xcframework/watchos-arm64_arm64_32_armv7k/*/Headers/*.h",
+    "source_files": "JSONModel.xcframework/watchos-arm64_arm64_32_armv7k/*/Headers/*.h"
+  }
+}
